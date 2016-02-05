@@ -1,0 +1,22 @@
+{
+  "name": "directives.tuts",
+  "authors": [
+    "Igor Maf <knjaz092@mail.ru>"
+  ],
+  "description": "https://code.tutsplus.com/courses/advanced-angular-directives/lessons/advanced-angular-directives",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-ui-router": "^0.2.17"
+  }
+}

@@ -1,0 +1,18 @@
+.text,
+.image {
+	width: 80%;
+	padding-bottom: 50px
+}	
+	.content,
+	.title,
+	.title {
+		width: 100%
+	}
+	.title {
+		background: #000;
+		color: #fff
+	}
+	.image img {
+		height: 200px
+	}
+	
