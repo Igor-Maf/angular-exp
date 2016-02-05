@@ -1,0 +1,17 @@
+<div>
+	<div>
+		<button ng-click="main.setText()">Enter Text</button>
+	</div>
+	<div>
+		<input type="text" id="myInput" ng-model="main.valueOne">
+	</div>
+
+	<a ui-sref="home">To Home</a>
+
+
+	<div>
+		<a ui-sref="results({pet: main.one})">Cat</a>
+		<a ui-sref="results({pet: main.two})">Dog</a>
+		<a ui-sref="results({pet: main.three})">Fish</a>
+	</div>
+</div>

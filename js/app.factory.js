@@ -3,7 +3,8 @@
   
   angular
     .module('myApp')
-    .factory('appDataService', appDataService);
+    .factory('appDataService', appDataService)
+    .factory('resultService', resultService);
 
   function appDataService($log) {
     return {
@@ -39,6 +40,23 @@
     }
 
     $log.debug('appDataService was uploaded');
+  };
+
+  function resultService() {
+    // var result;
+    var result = [];
+
+    var resultService = {
+      setResult: function(input) {
+        // result = input;
+        result.push(input);
+      },
+      getResult: function() {
+        return result;
+      }
+    };
+
+    return resultService;
   };
 
 })();
